@@ -580,6 +580,9 @@ blockquote .fa-quote-right {
     padding-right: 0;
   } 
 }
+.map {
+  pointer-events: none;
+}
 
 .arrow.feat-prev {
   position: absolute;
