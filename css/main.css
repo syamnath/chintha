@@ -993,3 +993,7 @@ img.author-img { margin-bottom: 0; }
 .site-footer .social li a i, .social li a i {
   margin-top: 11px;
 }
+
+.iphone button.close {
+  padding-left: 3px;
+}
