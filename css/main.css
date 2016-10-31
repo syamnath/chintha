@@ -996,4 +996,5 @@ img.author-img { margin-bottom: 0; }
 
 .iphone button.close {
   padding-left: 1px;
+  border: 1px solid red;
 }
