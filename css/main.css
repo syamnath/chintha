@@ -590,6 +590,15 @@ blockquote .fa-quote-right {
   color: #fff;
   cursor: pointer;
 }
+@media screen and (max-width: 991px) {
+  .arrow.feat-prev, .arrow.feat-next  {
+    top: 30% !important;
+  }
+}
+
+.iphone .arrow.feat-prev, .iphone .arrow.feat-next  {
+    top: 17% !important;
+  }
 
 .arrow.feat-prev:hover, .arrow.feat-next:hover {
   background: #2980b9;
@@ -996,4 +1005,9 @@ img.author-img { margin-bottom: 0; }
 
 .iphone button.close {
   padding-left: 1px;
+}
+
+
+.slider-2 {
+  position: relative;
 }
