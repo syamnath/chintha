@@ -19,7 +19,7 @@ $(function() {
 
             console.log(imageHeight)
             console.log(btnHeight)
-            var topposition =  (imageHeight-btnHeight-8)/2
+            var topposition =  (imageHeight-btnHeight-30)/2
              console.log(topposition)
              $('.arrow').css("top", topposition + "px");
     });
