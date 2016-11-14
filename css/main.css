@@ -448,7 +448,7 @@ blockquote .fa-quote-right {
 
 .sub-form .btn { width: 100%; }
 
-.result { margin: 1.5em 0 0; }
+/* .result { margin: 1.5em 0 0; } */
 
 .sub-form-success,
 .sub-form-error,
@@ -575,11 +575,12 @@ blockquote .fa-quote-right {
     text-align: center;
     padding-right: 0;
   } 
+  .map {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
-.map {
-  padding-left: 20px;
-  padding-right: 20px;
-}
+
 
 .arrow.feat-prev {
   position: absolute;

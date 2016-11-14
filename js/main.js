@@ -127,6 +127,7 @@ $(function() {
         dots: true,
         arrows: false,
         infinite: false,
+        fade: false,
         autoplay: true,
         autoplaySpeed: 3000,
         pauseOnHover: false
@@ -288,7 +289,7 @@ $(function() {
         nextArrow: '<div class="arrow feat-next"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>',
         slide: '.featured-slide-2',
         asNavFor: '.slider-nav-2',
-        fade: true,
+        fade: false,
         autoplay: false
     });
 
@@ -297,6 +298,7 @@ $(function() {
         slide: '.slide-link-2',
         asNavFor: '.slider-2',
         arrows: false,
+        fade: false,
         focusOnSelect: false,
         responsive: [
             {
