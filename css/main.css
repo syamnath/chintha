@@ -628,11 +628,15 @@ blockquote .fa-quote-right {
 }
 
 .iphone .modal-header .close {
-  line-height: 39px;
+  line-height: 42px;
 }
 .arrow.feat-next i, .arrow.feat-prev i {
   margin-top: 7px;
   pointer-events: all;
+}
+
+.iphone .modal-dialog {
+  margin-top: 40px;
 }
    /* ==========================================================================
    details
