@@ -638,6 +638,7 @@ blockquote .fa-quote-right {
 .iphone .modal-dialog {
   margin-top: 48px;
 }
+
    /* ==========================================================================
    details
    ========================================================================== */
@@ -1026,4 +1027,17 @@ img.author-img { margin-bottom: 0; }
 
 .slider-2 {
   position: relative;
+}
+
+@media screen and (max-width: 900px) {
+  .section-spacing, .section-spacing.prices {
+      padding: 2.5em 0;
+      border-top: 1px solid #eee;
+  }
+  .contact-form {
+    margin-bottom: 0;
+  }
+  .reviews.section-spacing {
+    padding: 2.5em 0 7.5em;
+  }
 }
