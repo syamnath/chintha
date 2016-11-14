@@ -2,8 +2,6 @@ $(function() {
     "use strict";
 
 
-
-
     /* ==========================================================================
    Preload
    ========================================================================== */
@@ -13,6 +11,17 @@ $(function() {
         $("#status").fadeOut();
         
         $("#preloader").delay(1000).fadeOut("slow");
+
+        // slider fix the spacing issue of the slider next btn
+
+            var imageHeight = $('#second-slider .col-md-4 img').height();
+            var btnHeight  = $('.arrow').height();
+
+            console.log(imageHeight)
+            console.log(btnHeight)
+            var topposition =  (imageHeight-btnHeight-8)/2
+             console.log(topposition)
+             $('.arrow').css("top", topposition + "px");
     });
 
 

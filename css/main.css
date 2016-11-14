@@ -577,7 +577,8 @@ blockquote .fa-quote-right {
   } 
 }
 .map {
-  pointer-events: none;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .arrow.feat-prev {
@@ -590,14 +591,9 @@ blockquote .fa-quote-right {
   cursor: pointer;
 }
 @media screen and (max-width: 991px) {
-  .arrow.feat-prev, .arrow.feat-next  {
-    top: 30% !important;
-  }
+
 }
 
-.iphone .arrow.feat-prev, .iphone .arrow.feat-next  {
-    top: 17% !important;
-  }
 
 .arrow.feat-prev:hover, .arrow.feat-next:hover {
   background: #2980b9;
@@ -609,7 +605,7 @@ blockquote .fa-quote-right {
   position: absolute;
   right: 15px;
   padding: 15px;
-  top: 114px;
+  /*top: 114px;*/
   background: #3498db;
   color: #fff;
   cursor: pointer;
@@ -803,8 +799,6 @@ img.author-img {
    footer
    ========================================================================== */
 
-
-.site-footer.section-spacing { padding: 4.5em 0; }
 
 .site-footer small {
   margin: 1.5em 0 .75em;
