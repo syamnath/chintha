@@ -240,7 +240,7 @@ transform:translateY(0);
    Features
    ========================================================================== */
    
-.features.section-spacing { padding: 4.5em 0 2.25em; }
+.section-spacing { border-top: 1px solid #eee; }
 
 section header h2,
 section h2 {
@@ -482,7 +482,6 @@ blockquote .fa-quote-right {
    Pricing
    ========================================================================== */
    
-.section-spacing.prices { padding: 4.5em 0 1.5em; }
 
 .plan {
   border: 1px solid #ddd;
@@ -564,9 +563,6 @@ blockquote .fa-quote-right {
   padding: 10px;
 }
 
-.details {
-  padding-bottom: 0;
-}
 
 @media screen and (max-width: 479px) {
   .slider-nav-container img {
@@ -734,7 +730,6 @@ img.author-img {
 
 #map-canvas img { max-width: none; }
 
-.address { padding: 3em 0; }
 
 .address li i {
   color: #3498db;
@@ -752,9 +747,8 @@ img.author-img {
    Contact
    ========================================================================== */
  
-.contact.section-spacing { padding: 4.5em 0 0; }
 
-.contact-form { margin-bottom: 3em; }
+
 
 .contact-form label.error {
   margin-bottom: 1.5em;
@@ -950,13 +944,6 @@ blockquote { font-size: 22px; }
 
 .welcome-message { margin: 4.5em 0 3em; }
 
-.section-spacing,
-.section-spacing.prices { padding: 6em 0; }
-
-.features.section-spacing { padding: 6em 0 3.75em; }
-
-.reviews.section-spacing { padding: 6em 0 9em; }
-
 blockquote .fa-quote-left,
 blockquote .fa-quote-right { font-size: 1.5em; }
 
@@ -972,7 +959,6 @@ blockquote .fa-quote-right { right: -50px; }
 
 img.author-img { margin-bottom: 0; }
 
-.contact.section-spacing { padding: 6em 0 0; }
 
 .contact .btn-default {
   width: auto;
@@ -1029,10 +1015,13 @@ img.author-img { margin-bottom: 0; }
   position: relative;
 }
 
+.address {
+  padding: 2.5em 0 0 0;
+}
+
 @media screen and (max-width: 900px) {
-  .section-spacing, .section-spacing.prices {
+  .section-spacing {
       padding: 2.5em 0;
-      border-top: 1px solid #eee;
   }
   .contact-form {
     margin-bottom: 0;
