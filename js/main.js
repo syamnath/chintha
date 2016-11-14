@@ -101,6 +101,24 @@ $(function() {
 
 
     /* ==========================================================================
+   active selection in the mobile
+   ========================================================================== */
+
+   if($("html").hasClass('mobile')) {
+    $(".navbar-default .navbar-nav li a").click(function(){
+        $(".navbar-default .navbar-nav li a").removeClass("active");
+
+        $(this).addClass("active");
+
+    })
+   } else {
+    /*Do nothing*/
+   }
+
+
+
+
+   /* ==========================================================================
    Smooth Scroll
    ========================================================================== */
     

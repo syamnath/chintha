@@ -581,6 +581,9 @@ blockquote .fa-quote-right {
   }
 }
 
+.navbar-default .navbar-nav li a.active {
+  color: #3498db;
+}
 
 .arrow.feat-prev {
   position: absolute;
