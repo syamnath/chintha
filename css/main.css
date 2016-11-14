@@ -620,14 +620,20 @@ blockquote .fa-quote-right {
 }
 .modal-header .close {
   line-height: 44px;
+  pointer-events: all;
 }
 
-.phone .modal-header .close {
+.modal-header {
+  pointer-events: none;
+}
+
+.iphone .modal-header .close {
   line-height: 42px;
   border: 1px solid red;
 }
 .arrow.feat-next i, .arrow.feat-prev i {
   margin-top: 7px;
+  pointer-events: all;
 }
    /* ==========================================================================
    details
