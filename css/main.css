@@ -798,7 +798,7 @@ img.author-img {
   border-left: none;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
-  box-shadow: .3em 0 0 0 #D95C5C inset;
+  border-left: .3em solid #D95C5C;
   margin-bottom: .75em;
 }
 
