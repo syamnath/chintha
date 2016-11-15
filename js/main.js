@@ -13,14 +13,11 @@ $(function() {
         $("#preloader").delay(1000).fadeOut("slow");
 
         // slider fix the spacing issue of the slider next btn
-
             var imageHeight = $('#second-slider .col-md-4 img').height();
             var btnHeight  = $('.arrow').height();
 
-            console.log(imageHeight)
-            console.log(btnHeight)
             var topposition =  (imageHeight-btnHeight-30)/2
-             console.log(topposition)
+
              $('.arrow').css("top", topposition + "px");
     });
 
@@ -99,25 +96,17 @@ $(function() {
         }, 5000);
     });
 
-
     /* ==========================================================================
    active selection in the mobile
    ========================================================================== */
 
-   if($("html").hasClass('mobile')) {
+    $(".navbar-default .navbar-nav li:first-child a").addClass("active");
+
     $(".navbar-default .navbar-nav li a").click(function(){
         $(".navbar-default .navbar-nav li a").removeClass("active");
-
         $(this).addClass("active");
-
-    })
-   } else {
-    /*Do nothing*/
-   }
-
-
-
-
+    });
+    
    /* ==========================================================================
    Smooth Scroll
    ========================================================================== */
