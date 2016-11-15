@@ -126,6 +126,7 @@ strong { font-weight: 600; }
 
 .learn-more { margin-bottom: .75em; }
 
+
 .button {
   display: inline-block;
   background: #3498db;
@@ -191,6 +192,15 @@ strong { font-weight: 600; }
   color: #fff;
   padding: .75em 2em;
   transition: all .5s linear;
+}
+
+
+@media screen and (max-width: 992px) {
+  .navbar-default .navbar-nav > li > a.button {
+  background: transparent;
+  color: #777;
+  border: 0;
+  }
 }
 
 .navbar-default .navbar-nav > li > a.button:hover,
@@ -584,6 +594,7 @@ blockquote .fa-quote-right {
 .navbar-default .navbar-nav li a.active {
   color: #3498db;
 }
+
 
 .arrow.feat-prev {
   position: absolute;

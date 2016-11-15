@@ -13,12 +13,14 @@ $(function() {
         $("#preloader").delay(1000).fadeOut("slow");
 
         // slider fix the spacing issue of the slider next btn
+        $(window).on("load resize scroll",function(e){
             var imageHeight = $('#second-slider .col-md-4 img').height();
             var btnHeight  = $('.arrow').height();
 
             var topposition =  (imageHeight-btnHeight-30)/2
 
              $('.arrow').css("top", topposition + "px");
+         });
     });
 
 
@@ -106,7 +108,7 @@ $(function() {
         $(".navbar-default .navbar-nav li a").removeClass("active");
         $(this).addClass("active");
     });
-    
+
    /* ==========================================================================
    Smooth Scroll
    ========================================================================== */
