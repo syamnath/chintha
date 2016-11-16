@@ -813,7 +813,7 @@ img.author-img {
 
 .win .modal-header .close {
   position: relative;
-  background: #fff url(img/closebtn.png) no-repeat 7px 7px; 0;
+  background: #fff url(../img/closebtn.png) no-repeat 7px 7px; 0;
 }
 .win .modal-header .close  span[aria-hidden="true"] {
    display: none;
