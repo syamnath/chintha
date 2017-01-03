@@ -1047,3 +1047,8 @@ img.author-img { margin-bottom: 0; }
     padding: 2.5em 0 7.5em;
   }
 }
+
+
+.red {
+  color: red;
+}
