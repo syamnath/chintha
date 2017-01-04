@@ -46,7 +46,7 @@ body {
 }
 
 p { 
-  color: #888;
+  color: #444;
   font-family: 'Manjari' Noto Sans , sans-serif;
  }
 
@@ -611,6 +611,7 @@ blockquote .fa-quote-right {
   background: #3498db;
   color: #fff;
   cursor: pointer;
+  z-index: 2000;
 }
 @media screen and (max-width: 991px) {
 
@@ -631,6 +632,7 @@ blockquote .fa-quote-right {
   background: #3498db;
   color: #fff;
   cursor: pointer;
+  z-index: 2000;
 }
 .modal-header .close {
   line-height: 44px;
@@ -1056,6 +1058,6 @@ img.author-img { margin-bottom: 0; }
 }
 
 
-.red {
-  color: red;
+.slider-nav-2:focus, .slide-link-2:focus, .slick-initialized .slick-slide:focus {
+  outline: none;
 }

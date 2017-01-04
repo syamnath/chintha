@@ -296,7 +296,6 @@ $(function() {
         slidesToShow: 1,
         prevArrow: '<div class="arrow feat-prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>',
         nextArrow: '<div class="arrow feat-next"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>',
-        slide: '.featured-slide-2',
         asNavFor: '.slider-nav-2',
         fade: false,
         autoplay: false
@@ -304,11 +303,10 @@ $(function() {
 
     $('.slider-nav-2').slick({
         slidesToShow: 6,
-        slide: '.slide-link-2',
         asNavFor: '.slider-2',
         arrows: false,
         fade: false,
-        focusOnSelect: false,
+        focusOnSelect: true,
         responsive: [
             {
               breakpoint: 1024,
