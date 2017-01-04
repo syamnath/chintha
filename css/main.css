@@ -591,7 +591,14 @@ blockquote .fa-quote-right {
   }
 }
 
+.navbar-default .navbar-nav li a.button.active {
+  color: #fff;
+  background-color: #3498db;
+}
+} 
+
 .navbar-default .navbar-nav li a.active {
+  /* color: #3498db; */
   color: #3498db;
 }
 
